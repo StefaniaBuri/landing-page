@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de viajes</title>
+    
+    <link rel="stylesheet" href="landing-page.css">
+  
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="menu">
+            <a href="./landing-page.html"><strong>Home</strong></a>
+            <a href="#"><strong>About</strong></a>
+            <a href="#"><strong>Contact us</strong></a>
+        </nav>
+
+   </header>
+
+  <div class="padre">
+
+       <div class="hijo1">
+
+            <div class="hijo11">
+               
+               <form action="#" method="post" id="formulario1" onsubmit="return false;">
+                  <h2>Find Your Trip</h2>
+                        </br>
+                     
+                     <label for="category">Category :</label>
+                     <select id="category" name="category">
+                        <option>Any</option>
+                        <option>Hotel</option>
+                        <option>Flight + Hotel</option>
+                        <option>Rent Car</option>
+                     </select>
+                           </br>
+                     <label for="date">Date :</label>
+                     <input id="date" placeholder="Any" type="date" name="date"/>
+                         </br>
+                     <label for="destination">Destination : </label>
+                     <select id="destination" name="destination">
+                        <option>Any</option>
+                        <option>Canary Islands</option>
+                        <option>Mallorca</option>
+                        <option>Galicia</option>
+                     </select>
+                            </br>
+                     <label for="maxprice">Max Price:</label>
+                     <input id="price" placeholder="00.0" type="number" name="00.0"/>
+                            </br>
+                     <label for="comment" >Comment :</label></br>
+                     <textarea id="comment" placeholder="Comment" type="text" name="comment"></textarea>
+                         </br>
+                     <div class="botones">
+                     <button type="search" class="search" >Search</button> 
+                     <button type="filter" class="button" onclick="filter()">Filter</button> 
+                     </div>
+                  </form>
+               
+            </div>
+
+               <div class="hijo12">
+                 
+                  <div class="box dashed2">
+                     <h4>TRIP</h3>
+                     <hr>
+                     <p id="p_category">
+                        Category: <span></span>
+                     </p>
+
+                     <p id="p_date">
+                        Date: <span></span>
+                     </p>
+                  
+                     <p id="p_destination">
+                        Destination: <span></span>
+                     </p>
+                     <p id="p_price">
+                        Price: <span></span>
+                     </p>
+                  
+                     <p id="p_comment">
+                        Comment: <span></span>
+                     </p>
+                  
+                  </div>
+                  
+               </div>
+
+               <div class="hijo13">
+                  <div class="box dashed">
+                     <h4>User Information</h3>
+                     <hr>
+                     <p id="p_name">
+                        Name: <span></span>
+                     </p>
+                  
+                     <p id="p_email">
+                        Email: <span></span>
+                     </p>
+                  
+                     <p id="p_message">
+                        Message: <span></span>
+                     </p>
+                  
+                  </div>
+
+               </div>
+
+
+      </div>
+
+
+       <div class="hijo2">
+   
+               <div class="hijo22">
+
+                     <h2> About our travel agency</h2>
+                     <p> We pride ourselves on the stringent measures we take in providing the safest and highly
+                     trusted travel products at the best price to our customers. Every Travel Expert
+                     is well aware about the measures taken in-house to ensure a safe and delightful
+                     travel experience for our customers, well planned travel products that are unique, high in quality and assembled according to the desires
+                     of the customers, at incredible rates.</p>
+                     </br>
+                    
+                     <p> 
+                        <h3>*Exclusive Group Savings</h3>
+                        Whether it’s your one-of-kind destination wedding, a long-awaited family reunion,
+                     or getting the old gang back together, plan your next group getaway with exclusive savings.</p>
+                     
+                     <p> 
+                        <h3>*7 Days in Spain</h3>
+                        Spain is an incredible European country with so many amazing places to visit. From rural country
+                     sides to stunning beaches, you could spend weeks in Spain and still not see everything. </br>There is
+                     plenty of diversity to be found from the blend of cultures, and this exciting country’s cosmopolitan
+                     cities are vibrant, rich in history art, and architecture, and offer plenty of experiences for every
+                     visitor. We narrowed it down to two of the most popular cities—Madrid and Barcelona—to explore on a
+                     seven day Spanish discovery. </p>
+                </div>
+
+   
+                  <div class="hijo23">
+
+                     <form action="#" method="post" id="formulario" onsubmit="return false;">
+                        <h3><strong> Contact us</strong></h3>
+                     
+                        <p> 
+                        <label for="name">Name:</label>     
+                        <input type="text" name="name" id="name" placeholder="Your Name" ></br>
+                        </p> 
+                     
+                        <p>
+                        <label for="name">Email:</label> 
+                        <input type="text" name="email" id="email" placeholder="Email Address" ></br>
+                        </p>  
+                           </br>
+                        <p>
+                        <label for="name">Message:</label> </br>
+                        <textarea type="text" name="message" id="message" placeholder="Message" ></textarea></br>
+                        </p>
+                     
+                        <p>
+                        <input type="submit" value="Submit" id="submit"/>
+                        
+                        </p>
+                     </form>
+                  </div>
+
+            </div>
+  </div>
+
+
+ <script type="text/javascript" src="landing-page.js"></script>
+
+</body>
+
+</html>
+
